@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet');
+ body{font-family: 'Roboto', sans-serif;
+}
+body{
+	margin: 0px;
+	padding: 0px;	
+}
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */ 
+  z-index: 1;  /*Stay on top */
+  top: 0;  /*Stay at the top 
+  left: 0;*/
+  background-color: #002E58; /* Black */
+  /* overflow-x: hidden; Disable horizontal scroll */
+  padding-top: 20px;
+  padding-left: 10px;
+color: #FFFFFF;
+}
+.main {
+	position: absolute;
+  margin-left: 200px;  /*Same as the width of the sidebar */	
+  padding: 0px 20px;  
+  height: 100%;
+  background-color: #F4F4F4;
+}
+/*icon margin*/
+.icon_margin{
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.skills {list-style-type: disc;}
+
+.linespacing{
+	line-height: 1.6;
+}
+.dotted {
+	margin-top: 5px;
+	border-top: 1px dotted #000000;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+.left{
+	width: 10%;
+} 
+.middle {
+  width: 25%;
+}
+
+.right {
+  width: 62%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
